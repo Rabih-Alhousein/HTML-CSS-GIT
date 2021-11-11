@@ -3,3 +3,19 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first li:nth-child(1) {
+  order: 4;
+}
+
+.countries--second li:nth-child(1) {
+  order: 2;
+}
+
+.countries--second li:nth-child(5) {
+  order: 3;
+}
+
+.countries--third {
+  flex-direction: row-reverse;
+}
